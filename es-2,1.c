@@ -2,16 +2,16 @@
 
 int main()
 {
-    float primonumero;
-    float secondonumero;
+    float primoNumero;
+    float secondoNumero;
     float media;
 
     printf("Inserisci il primo numero di cui fare la media\n");
-    scanf("%f", &primonumero);
+    scanf("%f", &primoNumero);
     printf("Inserisci il secondo numero di cui vuoi fare la media\n");
-    scanf("%f", &secondonumero);
+    scanf("%f", &secondoNumero);
 
-    media = (primonumero + secondonumero)/2;
+    media = (primoNumero + secondoNumero)/2;
     printf("La media dei due numeri è %f\n", media);
 
     return 0;
