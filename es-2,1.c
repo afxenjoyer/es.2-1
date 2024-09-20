@@ -13,4 +13,6 @@ int main()
 
     media = (primonumero + secondonumero)/2;
     printf("La media dei due numeri è %f\n", media);
+
+    return 0;
 }
